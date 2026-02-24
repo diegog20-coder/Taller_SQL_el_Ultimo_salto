@@ -1,14 +1,9 @@
 # Taller_SQL_el_Ultimo_salto
-• Ejercicio 1 ¿Cuántos clientes tenemos registrados en total?
-Pista: COUNT(*)
-• Ejercicio 2 Enlista todos los productos de la categoría "Paracaídas" con sus precios, ordenados de mayor a menor precio.
-Pista: Filtra por categoría y ordena descendente.
-• Ejercicio 3 ¿Cuál es el paracaídas más caro que tenemos?
-Pista: MAX() + WHERE para filtrar categoría.
-• Ejercicio 4 ¿Cuántas transacciones de venta hemos registrado?
-Pista: COUNT() sobre la tabla ventas.
-• Ejercicio 5 Muestra el nombre, correo y fecha de nacimiento de todos los clientes, ordenados alfabéticamente por nombre.
-Pista: SELECT simple con ORDER BY.
+-- • Ejercicio 1 ¿Cuántos clientes tenemos registrados en total? Pista: COUNT(*)
+-- • Ejercicio 2 Enlista todos los productos de la categoría "Paracaídas" con sus precios, ordenados de mayor a menor precio. Pista: Filtra por categoría y ordena descendente.
+-- • Ejercicio 3 ¿Cuál es el paracaídas más caro que tenemos? Pista: MAX() + WHERE para filtrar categoría.
+-- Ejercicio 4 ¿Cuántas transacciones de venta hemos registrado? Pista: COUNT() sobre la tabla ventas.
+-- Ejercicio 5 Muestra el nombre, correo y fecha de nacimiento de todos los clientes, ordenados alfabéticamente por nombre. Pista: SELECT simple con ORDER BY.
 • Ejercicio 6 ¿Cuál fue el monto total de ventas en toda la historia?
 Pista: SUM(total_venta) desde la tabla ventas.
 • Ejercicio 7 Enlista todos los productos de "Accesorios" con precio menor a $500.
