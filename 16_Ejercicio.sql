@@ -8,3 +8,4 @@ JOIN clientes c ON v.id_cliente = c.id_cliente
 GROUP BY c.id_cliente, c.nombre
 ORDER BY monto_total DESC
 LIMIT 1;
+--El cliente que más dinero ha gastado es Eligia Robles Iniesta con un monto total de $65440
