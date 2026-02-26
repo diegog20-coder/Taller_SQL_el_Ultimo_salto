@@ -3,3 +3,4 @@
 SELECT nombre, precio
 FROM productos
 WHERE precio = (SELECT MAX(precio) FROM productos WHERE categoria = 'Paracaídas');
+--
