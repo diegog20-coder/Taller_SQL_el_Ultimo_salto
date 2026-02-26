@@ -11,4 +11,4 @@ WWITH ingresos_por_mes AS (
 SELECT 
     MAX(ingresos) - MIN(ingresos) AS diferencia_ingresos
 FROM ingresos_por_mes;
--- La diferencia en ingresos entre el mes con mayor venta y el mes con menor venta en 2025 es de aproximadamente $98593
+-- La diferencia en ingresos entre el mes con mayor venta y el mes con menor venta en 2025 es de $98593
