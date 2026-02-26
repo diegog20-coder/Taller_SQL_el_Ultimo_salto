@@ -1,0 +1,10 @@
+--Ejercicio 28 Crea un reporte de "clientes de riesgo": aquellos cuya última compra fue hace más de 180 días a partir de hoy. Muestra nombre, correo y fecha de última compra.
+--Pista: MAX(fecha_venta) por cliente, HAVING MAX(fecha_venta) < DATE('now', '-180 days').
+SELECT 
+    c.nombre, 
+    c.correo, 
+    MAX(v.fecha_venta) AS fecha_ultima_compra
+FROM clientes c
+JOIN ventas v ON c.id_cliente = v.id_cliente
+GROUP BY c.id_cliente
+HAVING fecha_ultima_compra < DATE('now', '-180 days');
